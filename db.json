@@ -1,0 +1,46 @@
+{
+    "bg": "https://i1.wp.com/blog.logrocket.com/wp-content/uploads/2020/01/Next.js-react-nocdn.png?fit=730%2C412&ssl=1",
+    "title": "Quiz React + Next",
+    "description": "Teste os seus conhecimentos sobre React + Next e vamos ver quantos componentes você vai deixar de quebrar",
+    "questions": [
+      {
+        "image": "https://media.giphy.com/media/xUOxf3yDKCuwpOlT3i/giphy.gif",
+        "title": "Como fazer um seletor por id via CSS?",
+        "description": "Essa é pra aquecer",
+        "answer": 2,
+        "alternatives": [
+          ".elemento",
+          "*elemento",
+          "#elemento",
+          "%elemento"
+        ]
+      },
+      {
+        "image": "https://media.giphy.com/media/13FrpeVH09Zrb2/giphy.gif",
+        "title": "Como fazer um background gradiente com css?",
+        "description": "Faz tempo em haha",
+        "answer": 0,
+        "alternatives": [
+           "background: linear-gradient(#e66465, #9198e5);",
+           "background: gradient(#e66465, #9198e5);"
+        ]
+      }
+    ],
+    "external": [
+      ""
+    ],
+    "theme": {
+      "colors": {
+        "primary": "#3f51b5",
+  
+        "secondary": "#f44336",
+
+        "mainBg": "#757ce8ee",
+        
+        "contrastText": "#ffffff",
+        "wrong": "#FF5722",
+        "success": "#4CAF50"
+      },
+      "borderRadius": "4px"
+    }
+  }
