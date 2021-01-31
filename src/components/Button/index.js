@@ -1,33 +1,28 @@
-import React from 'react'
-import Link from 'next/link'
-import styled from 'styled-components'
+import styled from 'styled-components';
 
-const H3 = styled.h1`
-    text-align: center;
-    color: #f44336;
-    &:hover {
-        color:#ff7961;
-    }
-`
-const Ahef = styled.a`
-    text-decoration: none;
-    cursor: pointer;
-
-`
-const Div = styled.div`
-    background-color: #d7e32;
-    padding:5px;
-    width:50%;
-    margin: 40px auto;
-`
-export default function Buttons(){
-    return(
-        <Div>
-
-            <Link href="/quiz">
-            <Ahef><H3>INICIAR QUIZ </H3></Ahef>     
-            </Link>
-
-        </Div>
-    )
-}
+const Button = styled.button`
+  background-color: ${({ theme }) => theme.colors.secondary};
+  color: ${({ theme }) => theme.colors.contrastText};
+  border-radius: ${({ theme }) => theme.borderRadius};
+  border: 0;
+  width: 100%;
+  padding: 14px 16px;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 1;
+  text-transform: uppercase;
+  outline: 0;
+  transition: .3s;
+  cursor: pointer;
+  &:hover,
+  &:focus {
+    opacity: .5;
+  }
+  &:disabled {
+    background-color: #979797;
+    cursor: not-allowed;
+  }
+`;
+// "https://blog.rocketseat.com.br/content/images/2018/12/ssr-nextjs-reactjs.png"
+// "https://i1.wp.com/blog.logrocket.com/wp-content/uploads/2020/01/Next.js-react-nocdn.png?fit=730%2C412&ssl=1"
+export default Button;
