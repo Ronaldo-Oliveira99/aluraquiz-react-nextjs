@@ -1,63 +1,58 @@
-![Logo of the project](https://github.com/Ronaldo-Oliveira99/aluraquiz-react-nextjs/blob/main/public/readme_images/cfe9ae47-7e23-4d1d-bf88-cd96ad87c8d6_200x200.png)
- 
-## Name_of_the_project
- 
+## ★ Name of the project
 Alura Quiz with React + NextJs
+
+## ⊕ About this project
+A Next Js technology question and answer challenge.
+Developed in alura immersion.
  
- 
-## Technology 
- 
+## ⌨ Technology 
 Here are the technologies used in this project.
- 
 * React 
 * NextJs
 * Javascript
  
  
-## Services Used
- 
+## ☂ Services Used
 * Github
 * Vercel
  
  
-## Librarys 
+## ☂ Librarys 
 * styled-components
  
-## Getting started
- 
+## ▶ Getting started
+ * Clone this repository:
+>     git clone https://github.com/Ronaldo-Oliveira99/aluraquiz-react-nextjs
 * To install:
 >     npm install
 * To run the project:
 >    npm run dev 
  
-## How to use
  
-Here will be the images and descriptions. Principal content.
+## ？How to use
+On the home screen, enter a name. 
+ ![First_screnn](https://github.com/Ronaldo-Oliveira99/aluraquiz-react-nextjs/blob/main/public/readme_images/print%20quiz%20inicial.png?raw=true)
+
+Answers the questions, in a total of 8. 
+ ![First_screnn](https://github.com/Ronaldo-Oliveira99/aluraquiz-react-nextjs/blob/main/public/readme_images/print%20quiz%20questions.png?raw=true)
+
+At the end, the user is shown the result of the responses. 
+ ![Last_screnn](https://github.com/Ronaldo-Oliveira99/aluraquiz-react-nextjs/blob/main/public/readme_images/quiz%20final.png?raw=true)
  
  
-## Features
- 
-  - Here will be the features.
- 
- 
-## Links
+## ≎ Links
  
   - Link of deployed application: https://aluraquiz-react-nextjs.ronaldo-oliveira99.vercel.app/
   - Repository: https://github.com/Ronaldo-Oliveira99/aluraquiz-react-nextjs
-    - In case of sensitive bugs like security vulnerabilities, please contact
-      YOUR EMAIL directly instead of using issue tracker. We value your effort
-      to improve the security and privacy of this project!
  
  
 ## Versioning
- 
 1.0.0
  
  
 ## Authors
- 
 * **RONALDO LUIZ**: @Ronaldo-Oliveira99 (https://github.com/Ronaldo-Oliveira99)
  
  
 Please follow github and join us!
-Thanks to visiting me and good coding!
+❤ Thanks to visiting me and good coding!
